@@ -12,7 +12,7 @@ max_row = ""
 greatest_decrease = 0
 min_row = ""
 
-csvpath = os.path.join('PyBank', 'Resources', 'budget_data.csv')
+csvpath = os.path.join('..', 'Resources', 'budget_data.csv')
 
 with open(csvpath, encoding='UTF-8') as csvfile:
     csvreader = csv.reader(csvfile, delimiter="-")
